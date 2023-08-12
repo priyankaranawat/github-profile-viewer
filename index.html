@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="bg.jpg" type="image/x-icon" />
+    <title>Github Profiles</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div id="card">
+      <div id="searchkaro">
+        <form id="form" onsubmit="return formSubmit()">
+          <input
+            type="text"
+            id="search"
+            placeholder="Search a Github profile"
+          />
+        </form>
+      </div>
+
+      <main id="main">
+        <div id="information">
+          <div id="image">
+            <img class="avatar" src="" alt="" />
+          </div>
+          <div id="details">
+            <h2>Name</h2>
+
+            <div id="info">
+              <p>### <strong>Followers</strong></p>
+              <p>## <strong>Following</strong></p>
+              <p>### <strong>Repositories</strong></p>
+            </div>
+
+            <div id="repos">
+              <a class="repo" href="#" target="_blank">Repository 1</a>
+              <a class="repo" href="#" target="_blank">Repository 2</a>
+              <a class="repo" href="#" target="_blank">Repository 3</a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
